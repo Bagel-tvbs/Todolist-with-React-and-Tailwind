@@ -36,9 +36,10 @@ function App() {
   }
   return (
     <div>
+ 
       <div className="bg-indigo-500 p-5 h-screen">
         <div className="max-w-[768px] m-auto bg-white p-5">
-          <h1 className="text-center text-2xl mb-4">React 待辦清單</h1>
+          <h1 className="text-center text-2xl mb-4">Bagel 練習React 待辦清單</h1>
           <div className="flex">
             <input id="todoInput" type="text" className="w-full rounded-l-lg border-l-2 border-y-2 border-indigo-300 pl-4 focus:outline-indigo-500 focus:outline-none focus:outline-offset-0" placeholder="請輸入你的代辦事項" />
             <button  onClick={addTodo}className="w-[50px] h-[50px] border-0 bg-sky-500 hover:bg-sky-600 rounded-r-lg text-white transition duration-700">+</button>
